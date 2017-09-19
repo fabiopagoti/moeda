@@ -1,7 +1,7 @@
-<h2>A taxa de conversão do dólar é 10</h2>
+<h2>A taxa de conversão do dólar é {{taxa}}</h2>
 
-<form>
-    <input class="form-control mb-1" type="text" placeholder="Digite o valor em R$">
+<form action="conversao" method="POST">
+    <input class="form-control mb-1" type="text" name="valor" placeholder="Digite o valor em R$">
 
     <button class="btn btn-primary">Converter</button>
 </form>
